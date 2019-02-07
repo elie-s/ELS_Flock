@@ -6,7 +6,7 @@ namespace ELS.Flock
 {
     public class FOV : MonoBehaviour
     {
-        [SerializeField] private List<GameObject> agents = new List<GameObject>();
+        [SerializeField] public List<GameObject> agents = new List<GameObject>();
 
         [SerializeField] private List<GameObject> neighbors = new List<GameObject>();
 
